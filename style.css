@@ -68,3 +68,13 @@ section {
     width: 80%;
     max-width: 500px;
 }
+
+.grid a img {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid a img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
